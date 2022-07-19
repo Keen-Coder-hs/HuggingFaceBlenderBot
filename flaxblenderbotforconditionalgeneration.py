@@ -1,7 +1,7 @@
 pip install transformers
 from transformers import BlenderbotTokenizer, FlaxBlenderbotForConditionalGeneration, BlenderbotConfig
-!pip install flax
-!pip install Sentence Piece
+pip install flax
+pip install Sentence Piece
 
 mname = "facebook/blenderbot-400M-distill"
 model = FlaxBlenderbotForConditionalGeneration.from_pretrained(mname)
@@ -13,9 +13,9 @@ inputs = tokenizer([UTTERANCE], max_length=1024, return_tensors='np')
 reply_ids = model.generate(**inputs).sequences
 print("Bot: ", [tokenizer.decode(g, skip_special_tokens=True, clean_up_tokenization_spaces=False) for g in reply_ids])
 
-!pip install transformers 
-!pip install flax
-!pip install Sentence Piece
+pip install transformers 
+pip install flax
+pip install Sentence Piece
 
 import jax.numpy as jnp
 from transformers import BlenderbotTokenizer, FlaxBlenderbotForConditionalGeneration
