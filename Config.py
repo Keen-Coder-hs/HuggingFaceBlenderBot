@@ -1,5 +1,3 @@
-pip install transformers
-
 from transformers import BlenderbotModel, BlenderbotConfig
 
 # Initializing a Blenderbot facebook/blenderbot-3B style configuration
