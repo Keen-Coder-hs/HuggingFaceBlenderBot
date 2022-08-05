@@ -1,5 +1,3 @@
-pip install transformers
-
 from transformers import BlenderbotTokenizer, BlenderbotModel
 
 model = BlenderbotModel.from_pretrained("facebook/blenderbot-400M-distill")
