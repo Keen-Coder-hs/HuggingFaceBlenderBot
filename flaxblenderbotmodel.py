@@ -1,7 +1,3 @@
-pip install transformers
-pip install flax
-pip install SentencePiece
-
 from transformers import BlenderbotTokenizer, FlaxBlenderbotModel
 
 tokenizer = BlenderbotTokenizer.from_pretrained("facebook/blenderbot-400M-distill")
