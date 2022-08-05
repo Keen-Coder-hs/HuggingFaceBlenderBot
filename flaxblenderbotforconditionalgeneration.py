@@ -1,4 +1,3 @@
-pip install transformers
 from transformers import BlenderbotTokenizer, FlaxBlenderbotForConditionalGeneration, BlenderbotConfig
 pip install flax
 pip install Sentence Piece
