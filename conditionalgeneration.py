@@ -1,4 +1,3 @@
-pip install transformers
 from transformers import BlenderbotTokenizer, BlenderbotForConditionalGeneration
 
 mname = "facebook/blenderbot-400M-distill"
