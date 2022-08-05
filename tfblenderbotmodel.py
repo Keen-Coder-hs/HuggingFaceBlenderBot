@@ -1,4 +1,3 @@
-pip install transformers
 from transformers import BlenderbotTokenizer, TFBlenderbotModel
 import tensorflow as tf
 
