@@ -1,4 +1,3 @@
-pip install transformers
 from transformers import BlenderbotTokenizer, BlenderbotForCausalLM
 
 tokenizer = BlenderbotTokenizer.from_pretrained("facebook/blenderbot-400M-distill")
